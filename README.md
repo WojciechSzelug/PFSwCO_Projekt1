@@ -1,15 +1,12 @@
 # PFSwChO_projekt1
-# ZMIENIONO ZAWARTOSC ZADANIA 9:
-## Dodano:
-- **Zmieniono wersje obrazow postgres i redis z latest na konkretne wersje**
-- **Plik .env i przypisanie zmiennych w docker-compose**
-- **Reactowe komponenty dla dokumentacji i kalkulatora**        
-- **Ograniczenie licznika kalkulatora dla 20 wartosci**
-- **dodanie przycisku "Historia indeksow" wyświetlającego 10 ostatnich indeksów**
-      
+# Program składa się z 3 mikrousług (strona główna, kalkulator fibonacciego, dokumentacja) 
+# Zadanie 9 zostao zmienione w nastpujcy sposob:
+- Narzucono ograniczenie wartosci K do 15 dla fibonacciego bo większa wartość mogła by przeciąć stronę
+- Dodano przycisk pokazujacy historie 10 ostatnich obliczeń fibonacciego
+-  
 ## Instrukcja uruchomienia:
       
-- **git clone https://github.com/Crimsey/PFSwChO_projekt1.git**
+- **git clone https://github.com/WojciechSzelug/PFSwCO_Projekt1**
 - **docker-compose up**
 - **Nalezy wejsc pod adres 0.0.0.0:3050**
 
