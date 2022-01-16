@@ -3,7 +3,7 @@
 # Zadanie 9 zostao zmienione w nastpujcy sposob:
 - Narzucono ograniczenie wartosci K do 15 dla fibonacciego bo większa wartość mogła by przeciąć stronę
 - Dodano przycisk pokazujacy historie 10 ostatnich obliczeń fibonacciego
--  
+
 ## Instrukcja uruchomienia:
       
 - **git clone https://github.com/WojciechSzelug/PFSwCO_Projekt1**
@@ -11,5 +11,5 @@
 - **Nalezy wejsc pod adres 0.0.0.0:3050**
 
       
-## Screenshot aplikacji:
+## Obraz z działającej aplikacji:
 ![image](obraz.png)
