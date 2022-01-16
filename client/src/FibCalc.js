@@ -52,20 +52,25 @@ this.showHistory=this.showHistory.bind(this);
     	
   }
 
+
+
+
+
   renderValues() {
     const entries = [];
-if(this.state.show){
-    for (let key in this.state.values) {
-      entries.push(
-        <div key={key}>
-          Indeks: {key} | Element: {this.state.values[key]}
-        </div>
-      );}
+    if(this.state.show){
+
+      for (let key in this.state.values) {
+        entries.push(
+          <div key={key}>
+            Indeks: {key} | Element: {this.state.values[key]}
+          </div>
+        );
+      }
+  
+
       } else {
     return null;}
-    
-    
-
     return entries;
   }
   
@@ -85,11 +90,11 @@ if(this.state.show){
             onChange={(event) => this.setState({ index: event.target.value })}
           />
           <button>Oblicz</button>
-          <button onClick={this.showHistory}>
+
+        </form>
+        <button onClick={this.showHistory}>
         	Historia
         </button>
-        </form>
-
         <h3>Wyrenderuj ostatnie indexy (limit 10):</h3>
         {this.renderSeenIndexes()}
         
